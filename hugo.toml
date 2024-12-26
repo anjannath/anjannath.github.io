@@ -6,9 +6,9 @@ baseURL = "https://anjannath.github.io"
 theme = 'hugo-bearblog'
 
 # Basic metadata configuration for your blog.
-title = "Anjan Nath, Software Engineer working on systems software, container and cloud :coffee:"
+title = "Anjan's Blog :coffee:"
 author = "Anjan"
-copyright = "Copyright © 2023, Anjan Nath"
+copyright = "Copyright © 2025, Anjan Nath"
 languageCode = "en-US"
 
 # Generate a nice robots.txt for SEO

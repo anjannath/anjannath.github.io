@@ -21,7 +21,7 @@ The default caching resolver on Fedora is `systemd-resolved` which doesn't yet s
 The main configuration file for `systemd-resolved` is `/etc/systemd/resolved.conf` and the drop-in config files are at `/etc/systemd/resolved.conf.d/`. Fedora ships a sample config file
 at `/usr/lib/systemd/resolved.conf`
 
-## Create the config file for `systemd-resolved`
+## Create the config file for `systemd-resolved` and verify its config
 
 1. Create the drop-in config directory for resolved:
 ```
@@ -57,4 +57,4 @@ FallbackDNS=9.9.9.9#dns.quad9.net 149.112.112.112#dns.quad9.net 2620:fe::fe#dns.
 DNSOverTLS=yes
 
 ```
-We can also use `resolvectl status` to get the current effective config. Please check `man systemd-resolved` and `make resolved.conf` for more in-depth details.
+We can also use `resolvectl status` to get the current effective config. Please check `man systemd-resolved` and `man resolved.conf` for more in-depth details.
